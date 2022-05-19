@@ -1,0 +1,13 @@
+usage: |-
+  &b&lServers &8> &fYou are on the &e&o{server}&f server!&f.
+hover: |-
+  &7Status: &b{status} 
+  &7Players&8: &b{count}
+  &7&oClick to join!
+list: '&7'
+hideoffline: false
+click: '/server {server}'
+messages:
+  online: '&aOnline'
+  offline: '&cOffline'
+  seperator: ', '
